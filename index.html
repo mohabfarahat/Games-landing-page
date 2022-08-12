@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>games.com</title>
     <link rel="stylesheet" href="styles/style.css" />
-    <script href="./scripts/index.js"></script>
   </head>
   <body>
     <!--haeder saction-->
@@ -48,6 +47,30 @@
       </div>
       <button class="order-btn" id="order-btn">Order now</button>
     </div>
+    <div class="dialog" id="dialog">
+      <div class="dialog-body">
+        <div class="dialog-head"></div>
+        <div class="inputs">
+          <div class="input-group">
+            <label for="name">Full Name</label>
+            <input type="text" name="" id="name" />
+          </div>
+          <div class="input-group">
+            <label for="name">Mobile no.</label>
+            <input type="number" name="" id="name" />
+          </div>
+          <div class="input-group">
+            <label for="order-items">Your Order</label>
+            <textarea name="" id="order-items"></textarea>
+          </div>
+        </div>
+        <div class="dialog-foot">
+          <button class="dialog-btn" id="submit-order">Submit Order</button>
+        </div>
+      </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
     <div class="aboutus">
       <h2>about us</h2>
       <p>
@@ -59,5 +82,6 @@
     <div class="sus">
       <p>All rights has been received for games.com 2022 ©</p>
     </div>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
