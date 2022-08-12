@@ -1,0 +1,145 @@
+*,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  /* box-sizing: border-box; */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  background-color: #1237a5;
+  align-items: center;
+  height: 5vh;
+  z-index: 100;
+  position: relative;
+}
+.logo {
+  color: #fff;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: sans-serif;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+li a {
+  color: #fff;
+}
+
+.header {
+  background-image: url("../images/1920x1080\ 4K\ HD\ Gaming\ Wallpaper\ Duvar\ Kağıtları.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.header h1 {
+  color: aliceblue;
+}
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30vh;
+  text-align: center;
+}
+.hero button {
+  background-color: #240968;
+  border: 2px solid #fad7d3;
+  color: #fad7d3;
+  width: 200px;
+  height: 5vh;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.img {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 10px;
+}
+
+.img img {
+  height: 30vh;
+  width: 350px;
+}
+
+.order {
+  text-align: center;
+  background-color: #572b7e;
+  padding: 30px;
+}
+.order button {
+  color: #fad7d3;
+  background-color: #6a1573;
+  border-radius: 5px;
+  width: 200px;
+  height: 5vh;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 900;
+  border: 2px solid #fad7d3;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 1cm;
+}
+.dialog {
+  display: none;
+  position: fixed;
+  width: 40vw;
+  height: 40vh;
+  top: 30vh;
+  left: 30vw;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 7px 11px 35px 8px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: 7px 11px 35px 8px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 7px 11px 35px 8px rgba(0, 0, 0, 0.67);
+  transition: 0.3s;
+}
+
+.aboutus {
+  background-size: cover;
+
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #91a2d7;
+  background-repeat: no-repeat;
+  height: auto;
+}
+.sus {
+  background-size: cover;
+
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #000;
+  background-repeat: no-repeat;
+  height: auto;
+}
+.sus p {
+  color: #963f9f;
+}
